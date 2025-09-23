@@ -37,3 +37,5 @@ from datetime import date
 fecha_clase = date(2025, 9, 22)  #(yyyy, mm, dd)
 print(fecha_clase)
 print(f"La fecha de hoy es: {fecha_clase}")
+
+fecha_formeato = 
