@@ -31,3 +31,9 @@ print(f"El precio es: {price}")
 is_active_client = True
 print(is_active_client)
 print(f"Esta activo? {is_active_client}")
+
+#Trabajando con fechas
+from datetime import date
+fecha_clase = date(2025, 9, 22)  #(yyyy, mm, dd)
+print(fecha_clase)
+print(f"La fecha de hoy es: {fecha_clase}")
