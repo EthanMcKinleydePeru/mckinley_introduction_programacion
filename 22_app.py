@@ -8,4 +8,12 @@ def obtener_datos_empleado():
 
    return nombre, salarioBrutoValor, porcentajeDescuentoValor
 
+def imprimirBoleta(nombreEmpleado, salarioBrutoEmpleado, porcentajeDescuentoEmpleado):
+    montoDescuento = salarioBrutoEmpleado*porcentajeDescuentoEmpleado
+    salarioLiquido = salarioBrutoEmpleado-montoDescuento
+    print(nombre)
+    print(salarioBrutoEmpleado)
+    print(montoDescuento)
+    print(salarioLiquido)
 
+imprimirBoleta(obtener_datos_empleado())
